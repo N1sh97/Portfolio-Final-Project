@@ -1,4 +1,29 @@
-h1 {
-  color: pink;
+.hero{
+  background: #F1E8FD;
+  text-align: center;
+}
+
+h1 h2 h3 h4 h5 h6{
   font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+}
+.hero p {
+  font-family:"Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  line-height: 2;
+  font-size: 25px;
+}
+.btn-branding{
+  
 }
