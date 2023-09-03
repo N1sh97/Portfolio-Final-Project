@@ -1,11 +1,14 @@
+:root {
+  --main-colour: #6c63ff;
+}
 
-.hero{
-  background: #F1E8FD;
+.hero {
+  background: #f1e8fd;
   text-align: center;
   padding: 100px 0;
 }
 
-h1 h2 h3 h4 h5 h6{
+h1 h2 h3 h4 h5 h6 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   font-weight: bold;
@@ -14,23 +17,49 @@ h1 h2 h3 h4 h5 h6{
 h1 {
   font-size: 96px;
 }
+h2 {
+  font-size: 52px;
+}
+p {
+  font-size: 20px;
+}
 .hero p {
-  font-family:"Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
-.hero h2{
+.hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   line-height: 2;
   font-size: 25px;
 }
-.btn-branding{
-  background: #6c63ff;
+.btn-branding {
+  background: var(--main-colour);
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  line-height: 27px ;
+  line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-coffee {
+  background: var(--main-colour);
+  border: 1px solid var(--main-colour);
+  color: white;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
+.coffee {
+  transition: all 150ms ease-in-out;
+}
+
+.coffee :hover {
+  transform: scale(1.1);
 }
