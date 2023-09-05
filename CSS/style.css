@@ -1,3 +1,9 @@
+@media (max-width) {
+  .project-description{
+    padding: 0;
+    text-align: center;
+  }
+}
 :root {
   --main-colour: #6c63ff;
 }
