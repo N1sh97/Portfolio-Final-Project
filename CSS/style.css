@@ -1,4 +1,4 @@
-@media (max-width) {
+@media (max-width: 850px) {
   .project-description{
     padding: 0;
     text-align: center;
