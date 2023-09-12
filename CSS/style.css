@@ -1,5 +1,5 @@
 @media (max-width: 850px) {
-  .project-description{
+  .project-description {
     padding: 0;
     text-align: center;
   }
@@ -9,7 +9,7 @@
 }
 
 .hero {
-  background: #F8F7F8; 
+  background: #f8f7f8;
   text-align: center;
   padding: 100px 0;
 }
@@ -24,7 +24,8 @@ h1 {
   font-size: 96px;
 }
 h2 {
-  font-size: 52px;
+  font-size: 45px;
+  text-align: center;
 }
 p {
   font-size: 20px;
@@ -43,8 +44,8 @@ p {
 }
 .btn-branding {
   background: var(--main-colour);
-  border-radius: 4px;
   color: white;
+  border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
