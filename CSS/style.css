@@ -84,6 +84,10 @@ p {
 .about-section h2{
   font-size: 18px;
 }
+.about-section{
+  text-align: center;
+  padding: 0px;
+}
 .about-section-button{
   background: var(--main-colour);
   border: 1px solid var(--main-colour);
