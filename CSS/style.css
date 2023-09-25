@@ -101,7 +101,11 @@ p {
 .content {
   margin: 50px;
 }
+
 .logo{
-  display: flex;
-  justify-content:left;
+  max-height: 40px;
+}
+.nav-item {
+  padding: 0 20px;
+
 }
