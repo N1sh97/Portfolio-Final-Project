@@ -24,6 +24,11 @@ h1 h2 h3 h4 h5 h6 {
 h1 {
   font-size: 65px;
 }
+h4 {
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+}
+
 .header {
   font-size: 45px;
   text-align: center;
@@ -82,7 +87,7 @@ p {
 .content-container h2 {
   font-size: 18px;
 }
-.content-container{
+.content-container {
   text-align: center;
   padding: 0px;
 }
@@ -95,28 +100,41 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
- .content-container container{
+.content-container container {
   padding: 160px 20px;
 }
 .content {
   margin: 50px;
 }
 
-.logo{
+.logo {
   max-height: 40px;
 }
 .nav-item {
   padding: 0 20px;
-
 }
-
+footer .contact-box {
+  background: #f8f7f8;
+  padding: 30px 70px;
+  border-radius: 10px;
+}
+footer .contact-box p{
+  margin: 0px;
+}
 footer .email-link {
-text-decoration: none;
-color: black;
-font-size: 24px;
-font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+}
+footer .social-links a {
+  margin: 60px;
+  color: var(--main-colour);
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 50px;
 }
 
-footer .email-link:hover{
-color: var(--main-colour);
+footer .email-link:hover {
+  color: var(--main-colour);
 }
